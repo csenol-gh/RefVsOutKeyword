@@ -6,10 +6,10 @@ namespace RefVsOutKeyword
     {
         static void Main(string[] args)
         {
-            int number1 = 10;
+            int number1 = 10; //it needs to be assigned a value since it is used with ref keyword
             int number2 = 20;
             int result1 = 0;
-            int number3;
+            int number3; //unlike number1, it does not need to be assigned a value since it is used with out keyword
             int number4 = 20;
             int result2 = 0;
 
